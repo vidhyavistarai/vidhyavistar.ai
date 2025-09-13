@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif']
+        },
+        colors: {
+          primary: '#082567',
+          accent: '#c7a239',
+        }
+      }
+    }
+  }
+</script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Title & Description -->
+  <title>Vidhya Vistar – AI-Powered Learning Ecosystem for K12 & Career Prep</title>
+  <meta name="description" content="Vidhya Vistar Edutech Solutions empowers students and institutions with AI-driven personalized learning, performance analytics, and outcome-based curriculum for K12, NEET, JEE, civil services, and career readiness.">
+</head>
+
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VidhyaVistar - Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', () => {
+        if (mobileMenu.classList.contains('hidden')) {
+          mobileMenu.classList.remove('hidden');
+          mobileMenu.classList.add('flex');
+        } else {
+          mobileMenu.classList.add('hidden');
+          mobileMenu.classList.remove('flex');
+        }
+      });
+
+      // Optional: Auto-close on link click
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          mobileMenu.classList.remove('flex');
+        });
+      });
+    }
+  });
+</script>
+<!DOCTYPE html>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vidhya Vistar</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&amp;family=Barlow:wght@300..900&amp;display=swap" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vidhya Vistar</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vidhya Vistar</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vidhya Vistar</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<style>
+    .text-primary {
+        color: #082567;
+    }
+    .text-accent {
+        color: #c7a239;
+    }
+    body {
+        font-family: 'Playfair Display', serif;
+    }
+</style>
+<style>
+        body {
+        margin: 0;
+        padding: 0;
+       font-family: 'Playfair Display', serif;
+       background-color: #f5f5f5;
+        color: #082567;
+       }
+
+        .bg-primary {
+            background-color: #082567;
+        }
+
+        .text-accent {
+            color: #c7a239;
+        }
+
+        .btn-primary {
+            background-color: #c7a239;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #d3b14a;
+        }
+
+        .btn-outline {
+            border: 2px solid #c7a239;
+            color: #c7a239;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .btn-outline:hover {
+            background-color: #c7a239;
+            color: white;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            line-height: 1.2;
+        }
+
+        p {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .logo-image {
+            width: 300px;
+            position: absolute;
+            bottom: -50px;
+            right: 50px;
+        }
+    </style>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&amp;family=Barlow:wght@300..900&amp;display=swap" rel="stylesheet"/>
+<!-- Top Bar + Header Fixed Wrapper -->
+<div class="fixed top-0 left-0 w-full z-50 bg-white">
+<!-- Top Bar -->
+<div class="bg-[#082567] text-white px-4 py-2 flex flex-col md:flex-row md:justify-between md:items-center text-sm font-medium border-b border-[#c7a239]">
+<div class="text-xs sm:text-sm md:text-base font-semibold text-center md:text-left">
+      VidhyaVistar Edutech Solutions Private Limited
+    </div>
+<div class="flex justify-center md:justify-end gap-2 mt-1 md:mt-0 text-xs sm:text-sm">
+<a class="text-[#c7a239] hover:underline" href="mailto:info@vidhyavistar.com">info@vidhyavistar.com</a>
+<span class="hidden sm:inline">|</span>
+<a class="text-[#c7a239] hover:underline" href="tel:+919591996666">+91 8712121919</a>
+</div>
+</div>
+<!-- Header -->
+<header class="shadow-md px-6 py-4 bg-white relative">
+<div class="flex justify-between items-center">
+<!-- Logo -->
+<h1 class="text-3xl font-bold">
+  <span class="text-[#c7a239]">V</span><span class="text-[#082567]">idhya </span>
+  <span class="text-[#c7a239]">V</span><span class="text-[#082567]">istar</span>
+</h1>
+<!-- Hamburger (mobile only) -->
+<button class="block md:hidden z-50" id="menuToggle">
+<svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex items-center gap-6 text-lg font-medium text-primary">
+  <a class="py-2" href="index.html">Home</a>
+  <a class="py-2" href="about.html">About Us</a>
+  <a class="py-2" href="expertise.html">Our Expertise</a>
+  <a class="py-2" href="ecosystem.html">Ecosystem</a>
+  <a class="py-2" href="blog.html">AI Blog</a>
+  <a class="py-2" href="collaborations.html">Collaborations</a>
+  <a class="py-2" href="careers.html">Careers</a>
+  <a class="py-2 px-4 border border-[#c7a239] text-[#c7a239] rounded-md font-semibold hover:bg-[#c7a239] hover:text-white transition" href="#contact">
+    Contact
+  </a>
+</nav>
+</div>
+
+<!-- Mobile Nav -->
+<div class="absolute top-full left-0 w-full bg-white shadow-md z-40 hidden flex-col gap-4 text-primary text-base font-medium px-6 py-4 md:hidden" id="mobileMenu">
+  <a class="py-2" href="index.html">Home</a>
+  <a class="py-2" href="about.html">About Us</a>
+  <a class="py-2" href="expertise.html">Our Expertise</a>
+  <a class="py-2" href="ecosystem.html">Ecosystem</a>
+  <a class="py-2" href="blog.html">AI Blog</a>
+  <a class="py-2" href="collaborations.html">Collaborations</a>
+  <a class="py-2" href="careers.html">Careers</a>
+  <a class="py-2 px-4 border border-[#c7a239] text-[#c7a239] rounded-md font-semibold hover:bg-[#c7a239] hover:text-white transition" href="#contact">
+    Contact
+  </a>
+</div>
+</header>
+</div>
+
+<!-- Ecosystem Page (Below Header to Footer) -->
+
+<section class="bg-white py-16 px-6 md:px-20">
+  <div class="max-w-7xl mx-auto">
+    <!-- Page Title -->
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">Our Ecosystem</h2>
+
+    <!-- Introduction -->
+    <div class="text-center mb-12 max-w-3xl mx-auto">
+      <p class="text-lg text-gray-700">
+        At Vidhya Vistar, we believe that transforming education requires collaboration. SKYGET's success is rooted in its dynamic partnerships with government bodies, private institutions, and public-sector innovators to drive scalable, AI-powered learning experiences.
+      </p>
+    </div>
+
+    <!-- Government Partnerships -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-4">1. Government Partnerships with State Education Boards</h3>
+      <ul class="list-disc pl-6 text-gray-700 space-y-3">
+        <li>Integration with CBSE, ICSE, and State Curriculum Guidelines.</li>
+        <li>AI-based pilot programs in government schools, scaling through policy collaborations.</li>
+        <li>Smart Classroom enablement via state-funded digital learning initiatives.</li>
+      </ul>
+      <p class="mt-4 text-gray-700"><strong>Implementation Plan:</strong> Pilot in select schools, secure state funding, and define AI education guidelines with policymakers.</p>
+    </div>
+
+    <!-- Public-Private Partnerships -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-4">2. Public-Private Partnerships for AI Scaling</h3>
+      <ul class="list-disc pl-6 text-gray-700 space-y-3">
+        <li>Collaborating with investors, CSR initiatives, and sponsors for AI expansion.</li>
+        <li>Securing education grants and policy-based funding for underserved schools.</li>
+        <li>Delivering inclusive digital access to rural and remote regions.</li>
+      </ul>
+      <p class="mt-4 text-gray-700"><strong>Implementation Plan:</strong> Partner with private investors, deploy affordable AI models, and coordinate infrastructure rollout with state officials.</p>
+    </div>
+
+    <!-- AI Training and Governance -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-4">3. State-Level Pilot Programs & AI Training</h3>
+      <ul class="list-disc pl-6 text-gray-700 space-y-3">
+        <li>Teacher workshops on AI-integrated pedagogy.</li>
+        <li>Student assessments and performance tracking through AI.</li>
+        <li>Compliance automation for policy-aligned school governance.</li>
+      </ul>
+      <p class="mt-4 text-gray-700"><strong>Implementation Plan:</strong> Train educators, deploy regional pilots, and establish monitoring dashboards at the state level.</p>
+    </div>
+
+    <!-- State-Specific Strategies -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-6">Strategic Focus Across Indian States</h3>
+
+      <!-- Andhra Pradesh & Telangana -->
+      <div class="mb-8">
+        <h4 class="text-xl font-semibold text-gray-800">Andhra Pradesh & Telangana</h4>
+        <p class="text-gray-700">
+          Focused on digital modernization via Mana Badi Nadu-Nedu and structured learning policies.
+        </p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>AI-compliant automation for schools.</li>
+          <li>CBSE & state syllabus support through AI modules.</li>
+          <li>Academic governance dashboards for real-time tracking.</li>
+        </ul>
+      </div>
+
+      <!-- Karnataka -->
+      <div class="mb-8">
+        <h4 class="text-xl font-semibold text-gray-800">Karnataka</h4>
+        <p class="text-gray-700">
+          Supporting NEP 2020 adoption with skill-based AI learning and ICT-powered education models.
+        </p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>AI integration in STEM and skill-based education.</li>
+          <li>Compliance automation aligned with NEP mandates.</li>
+          <li>End-to-end roadmaps for schools and universities.</li>
+        </ul>
+      </div>
+
+      <!-- Maharashtra -->
+      <div class="mb-8">
+        <h4 class="text-xl font-semibold text-gray-800">Maharashtra</h4>
+        <p class="text-gray-700">
+          Driving EdTech adoption across higher education institutions through AI governance systems.
+        </p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>Institution-wide compliance and policy monitoring.</li>
+          <li>Predictive analytics to optimize student outcomes.</li>
+          <li>Standardized workflows through governance automation.</li>
+        </ul>
+      </div>
+
+      <!-- Tamil Nadu -->
+      <div>
+        <h4 class="text-xl font-semibold text-gray-800">Tamil Nadu</h4>
+        <p class="text-gray-700">
+          Expanding rural & urban digital learning with state-sponsored EdTech initiatives.
+        </p>
+        <ul class="list-disc pl-6 text-gray-700">
+          <li>Multilingual AI modules to promote inclusivity.</li>
+          <li>Predictive analytics for career-aligned learning paths.</li>
+          <li>Smart dashboards for academic transformation monitoring.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CTA & Next Steps -->
+    <div class="bg-blue-50 p-8 rounded-2xl text-center shadow-md">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-4">Next Steps - SKYGET's Policy Alignment Strategy</h3>
+      <p class="text-gray-700 mb-4">
+        We are building AI-driven futures in education-together with policymakers, private leaders, and institutions. 
+        SKYGET adapts to every region's education vision through custom policy integration and sustainable implementation strategies.
+      </p>
+      <ul class="text-gray-700 list-disc pl-6 text-left max-w-3xl mx-auto mb-4">
+        <li>Regional partnerships with state governments</li>
+        <li>Institutional expansion plans tailored per state</li>
+        <li>AI grant strategies and public-private co-funding models</li>
+      </ul>
+      <p class="text-blue-600 font-medium mt-6">Ready to lead state-level AI adoption with us?</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-100 py-8 text-center text-gray-600 text-sm">
+  <div class="max-w-7xl mx-auto px-4">
+    <p>&copy; 2025 Vidhya Vistar. All rights reserved.</p>
+    <p>Empowering education through AI-driven collaboration.</p>
+  </div>
+</footer>

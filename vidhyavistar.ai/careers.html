@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif']
+        },
+        colors: {
+          primary: '#082567',
+          accent: '#c7a239',
+        }
+      }
+    }
+  }
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Title & Description -->
+  <title>Vidhya Vistar � AI-Powered Learning Ecosystem for K12 & Career Prep</title>
+  <meta name="description" content="Vidhya Vistar Edutech Solutions empowers students and institutions with AI-driven personalized learning, performance analytics, and outcome-based curriculum for K12, NEET, JEE, civil services, and career readiness.">
+</head>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', () => {
+        if (mobileMenu.classList.contains('hidden')) {
+          mobileMenu.classList.remove('hidden');
+          mobileMenu.classList.add('flex');
+        } else {
+          mobileMenu.classList.add('hidden');
+          mobileMenu.classList.remove('flex');
+        }
+      });
+
+      // Optional: Auto-close on link click
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          mobileMenu.classList.remove('flex');
+        });
+      });
+    }
+  });
+</script>
+<!DOCTYPE html>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300..900&amp;family=Playfair+Display:wght@400..900&amp;display=swap" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vidhya Vistar</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&amp;family=Barlow:wght@300..900&amp;display=swap" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    .text-primary {
+        color: #082567;
+    }
+    .text-accent {
+        color: #c7a239;
+    }
+    body {
+        font-family: 'Playfair Display', serif;
+    }
+</style>
+<style>
+        body {
+        margin: 0;
+        padding: 0;
+       font-family: 'Playfair Display', serif;
+       background-color: #f5f5f5;
+        color: #082567;
+       }
+
+        .bg-primary {
+            background-color: #082567;
+        }
+
+        .text-accent {
+            color: #c7a239;
+        }
+
+        .btn-primary {
+            background-color: #c7a239;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #d3b14a;
+        }
+
+        .btn-outline {
+            border: 2px solid #c7a239;
+            color: #c7a239;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .btn-outline:hover {
+            background-color: #c7a239;
+            color: white;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            line-height: 1.2;
+        }
+
+        p {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .logo-image {
+            width: 300px;
+            position: absolute;
+            bottom: -50px;
+            right: 50px;
+        }
+    </style>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&amp;family=Barlow:wght@300..900&amp;display=swap" rel="stylesheet"/>
+<!-- Top Bar + Header Fixed Wrapper -->
+<div class="fixed top-0 left-0 w-full z-50 bg-white">
+<!-- Top Bar -->
+<div class="bg-[#082567] text-white px-4 py-2 flex flex-col md:flex-row md:justify-between md:items-center text-sm font-medium border-b border-[#c7a239]">
+<div class="text-xs sm:text-sm md:text-base font-semibold text-center md:text-left">
+      VidhyaVistar Edutech Solutions Private Limited
+    </div>
+<div class="flex justify-center md:justify-end gap-2 mt-1 md:mt-0 text-xs sm:text-sm">
+<a class="text-[#c7a239] hover:underline" href="mailto:info@vidhyavistar.com">info@vidhyavistar.com</a>
+<span class="hidden sm:inline">|</span>
+<a class="text-[#c7a239] hover:underline" href="tel:+919591996666">+91 8712121919</a>
+</div>
+</div>
+<!-- Header -->
+<header class="shadow-md px-6 py-4 bg-white relative">
+<div class="flex justify-between items-center">
+<!-- Logo -->
+<h1 class="text-3xl font-bold">
+  <span class="text-[#c7a239]">V</span><span class="text-[#082567]">idhya </span>
+  <span class="text-[#c7a239]">V</span><span class="text-[#082567]">istar</span>
+</h1>
+<!-- Hamburger (mobile only) -->
+<button class="block md:hidden z-50" id="menuToggle">
+<svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex items-center gap-6 text-lg font-medium text-primary">
+  <a class="py-2" href="index.html">Home</a>
+  <a class="py-2" href="about.html">About Us</a>
+  <a class="py-2" href="expertise.html">Our Expertise</a>
+  <a class="py-2" href="ecosystem.html">Ecosystem</a>
+  <a class="py-2" href="blog.html">AI Blog</a>
+  <a class="py-2" href="collaborations.html">Collaborations</a>
+  <a class="py-2" href="careers.html">Careers</a>
+  <a class="py-2 px-4 border border-[#c7a239] text-[#c7a239] rounded-md font-semibold hover:bg-[#c7a239] hover:text-white transition" href="#contact">
+    Contact
+  </a>
+</nav>
+</div>
+
+<!-- Mobile Nav -->
+<div class="absolute top-full left-0 w-full bg-white shadow-md z-40 hidden flex-col gap-4 text-primary text-base font-medium px-6 py-4 md:hidden" id="mobileMenu">
+  <a class="py-2" href="index.html">Home</a>
+  <a class="py-2" href="about.html">About Us</a>
+  <a class="py-2" href="expertise.html">Our Expertise</a>
+  <a class="py-2" href="ecosystem.html">Ecosystem</a>
+  <a class="py-2" href="blog.html">AI Blog</a>
+  <a class="py-2" href="collaborations.html">Collaborations</a>
+  <a class="py-2" href="careers.html">Careers</a>
+  <a class="py-2 px-4 border border-[#c7a239] text-[#c7a239] rounded-md font-semibold hover:bg-[#c7a239] hover:text-white transition" href="contactus.html">
+    Contact
+  </a>
+</div>
+</header>
+</div>
+<!-- Careers Page (Below Header to Footer) -->
+
+<section class="bg-white py-16 px-6 md:px-20">
+  <div class="max-w-7xl mx-auto">
+    <!-- Page Title -->
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Careers at Vidhya Vistar</h2>
+
+    <!-- Intro Message -->
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <p class="text-lg text-gray-700">
+        We're always on the lookout for passionate, driven individuals who are eager to redefine the future of education through technology.
+        At Vidhya Vistar, you won't just join a company-you'll become part of a movement to empower learning through innovation, impact, and inclusion.
+      </p>
+    </div>
+
+    <!-- Why Join Us -->
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-20">
+      <div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Why Work With Us?</h3>
+        <ul class="list-disc pl-6 space-y-3 text-gray-700">
+          <li>Be part of India's AI-driven education transformation initiative</li>
+          <li>Collaborate with policy-makers, educators, developers, and designers</li>
+          <li>Work on real-world projects that impact schools and students across regions</li>
+          <li>Contribute to meaningful partnerships with government and CSR programs</li>
+          <li>Enjoy a growth-focused, remote-friendly work environment</li>
+        </ul>
+      </div>
+      <div>
+        <img src="assets/images/career_team_vector.png" alt="Join the Team" class="w-2/3 md:w-1/2 rounded-lg shadow-md">
+      </div>
+    </div>
+
+    <!-- Always Hiring -->
+    <div class="text-center bg-blue-50 p-8 rounded-2xl shadow-md mb-20">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-4">We're Always Hiring</h3>
+      <p class="text-gray-700 max-w-2xl mx-auto">
+        We believe talent should never wait for an opening. If you're an educator, technologist, creative, strategist, or community builder with a passion for AI, EdTech, and social impact-reach out.
+        We create roles for the right people.
+      </p>
+    </div>
+
+    <!-- Job Roles Placeholder -->
+    <div class="mb-20">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Open Roles</h3>
+      <div class="grid md:grid-cols-3 gap-8 text-gray-700">
+        <div class="bg-gray-50 p-6 rounded-xl shadow-sm">
+          <h4 class="font-bold text-lg mb-2">EdTech Project Coordinator</h4>
+          <p>Manage pilot implementations, interface with institutions, and ensure smooth AI onboarding.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl shadow-sm">
+          <h4 class="font-bold text-lg mb-2">Content & Curriculum Designer</h4>
+          <p>Develop engaging educational content and assessment models powered by SKYGET's AI.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl shadow-sm">
+          <h4 class="font-bold text-lg mb-2">AI Product Analyst</h4>
+          <p>Monitor learning trends, gather insights, and improve platform experiences using data-driven strategies.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="text-center">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Let's Grow Together</h3>
+      <p class="text-gray-700 mb-4">Drop us your CV or portfolio at <a href="mailto:careers@vidhyavistar.ai" class="text-blue-600 font-medium">careers@vidhyavistar.ai</a> and we'll get in touch if there's a fit.</p>
+      <p class="text-blue-600 font-semibold">Build the future of learning-join Vidhya Vistar today.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-100 py-8 text-center text-gray-600 text-sm">
+  <div class="max-w-7xl mx-auto px-4">
+    <p>&copy; 2025 Vidhya Vistar. All rights reserved.</p>
+    <p>Careers that empower, educate, and inspire.</p>
+  </div>
+</footer>

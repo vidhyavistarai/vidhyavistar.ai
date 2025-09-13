@@ -1,0 +1,184 @@
+/* Vidhya Vistar Styles */
+
+/* Primary Colors */
+.text-primary {
+    color: #082567;
+}
+
+.bg-primary {
+    background-color: #082567;
+    color: white;
+}
+
+.text-accent {
+    color: #c7a239;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #c7a239;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d3b14a;
+}
+
+.btn-outline {
+    border: 2px solid #c7a239;
+    color: #c7a239;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline:hover {
+    background-color: #c7a239;
+    color: white;
+}
+
+/* Section Title */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #082567;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+/* Global Styles */
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #082567;
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #c7a239;
+}
+
+/* Section Title */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    color: #c7a239;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Card Styles */
+.card {
+    background-color: #1d3557;
+    border-radius: 15px;
+    padding: 30px;
+    color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Icon Styles */
+.icon-bg {
+    background-color: #457b9d;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #c7a239;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d3b14a;
+}
+
+.btn-outline {
+    border: 2px solid #c7a239;
+    color: #c7a239;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline:hover {
+    background-color: #c7a239;
+    color: #ffffff;
+}
+.bg-primary {
+    background-color: #082567;
+}
+.text-accent {
+    color: #c7a239;
+}
+/* Top Bar Styles */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #082567;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid #c7a239;
+}
+
+.top-left {
+    font-weight: 600;
+}
+
+.top-right {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-link {
+    color: #c7a239;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-link:hover {
+    color: #d3b14a;
+    text-decoration: underline;
+}
+
+
+/* Fade-in animation styles */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
